@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Power Pix - Admin Panel</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.0/classic/ckeditor.js"></script>
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.powerball.com/v01/images/1nd8xoo2/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/main-logo.png" alt="not">
+        
+      </a>
+    
+    </div><!-- End Logo -->
+
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Adnan Khan</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Adnan Khan</h6>
+              <span>CEO Of Voags</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+       
+
+
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+    
+
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Actual-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Lottery Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Prediction-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Prediction Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="content-management.html">
+          <i class="bi bi-images"></i>
+          <span>Content Management</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <section class="section Content-management">
+      <div class="row justify-content-center">
+
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-xxl-12 col-xl-12">
+
+                <div class="card ">
+  
+               
+  
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="card-title-two">Home</h5>
+                        <button class="back-btn" onclick="window.location='content-management.html'"><i class="bi bi-caret-left"></i>&nbsp;Back</button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+
+                        <div class="col-lg-12 col-xxl-12">
+<h3 class="section-area-title">Main Section</h3>
+                            <div class="form-group">
+                                <label for="">Tagline</label>
+                           
+                                <input type="text" class="form-control" value="#1 Powerball predictions on the Planet!">
+                            </div>
+                            <div class="form-group mt-3 mb-4">
+                                <label for="">Description</label>
+                                <textarea name="texteditor1" id="texteditor1" cols="30" rows="10" >
+                                   <p>This site is for serious players, or groups that want to <b>MAXIMIZE</b> their odds of winning big money prizes on Powerball!</p>
+                                </textarea>
+                            </div>
+                            <h3 class="section-area-title">Jackpot Banner</h3>
+                            <div class="form-group">
+                               
+                                <label for="">Jackpot Prize</label>
+                                <input type="text" class="form-control" value="$100,000,000">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="">Jackpot Time</label>
+                                <input type="datetime-local" class="form-control">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="">Jackpot Ticket Price</label>
+                                <input type="text" value="$12.05" class="form-control">
+                            </div>
+                            <div class="form-group mt-3">
+                              <label >Image</label>
+                              <div class="preview-image position-relative">
+                      <div class="image-wrapper">
+                          <img src="assets/img/PowerBall-header.webp" alt="not">
+                      </div>
+                      <div class="upload-btn">
+                          <i class="bi bi-cloud-arrow-up"></i>
+                      </div>
+                              </div>
+                              <p>
+                                  Supported Files: .png, .jpg, .jpeg. Image will be resized into 636x358px
+                              </p>
+                          </div>
+                          <h3 class="section-area-title">Third Section</h3>
+                          <div class="form-group">
+                               
+                            <label for="">Section Title</label>
+                            <input type="text" class="form-control" value="This is a Free Service Until March 31,2025">
+                        </div>
+                        <div class="form-group mt-3">
+                               
+                          <label for="">Section Description</label>
+                          <textarea name="texteditor1" id="texteditor2" cols="30" rows="10" >
+                           <p>For full transparency, if you end up buying tickets through our online affiliate partners, we do earn a commission, otherwise this service is being offered to you at ZERO $ COST. For U.S.-based lotto players, we suggest you buy tickets directly from a local retailer if you can.</p>
+                         </textarea>
+                      </div>
+                      <h3 class="section-area-title">Fourth Section</h3>
+                          <div class="form-group">
+                               
+                            <label for="">Section Title</label>
+                            <input type="text" class="form-control" value="Take a closer look at our track record with the Powerball lottery since 2017, after they moved to their current format.">
+                        </div>
+                        <div class="form-group mt-3">
+                               
+                          <label for="">Section Description</label>
+                          <textarea name="texteditor1" id="texteditor3" cols="30" rows="10" >
+                           <p>We have correctly predicted 19 Powerball Jackpot winning tickets worth over $4.55 Billion</p>
+
+                         </textarea>
+                      </div>
+                      <div class="form-group mt-3">
+                        <label >Image</label>
+                        <div class="preview-image position-relative" >
+                <div class="image-wrapper">
+                    <img  class="not-cover" src="assets/img/jackpots.jpeg" alt="not">
+                </div>
+                <div class="upload-btn">
+                    <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+                        </div>
+                        <p>
+                            Supported Files: .png, .jpg, .jpeg. Image will be resized into 636x358px
+                        </p>
+                    </div>
+
+
+                    <h3 class="section-area-title">Fifth Section</h3>
+                   
+                  <div class="form-group">
+                         
+                    <label for="">Section Description</label>
+                    <textarea name="texteditor1" id="texteditor4" cols="30" rows="10" >
+                     <p>Can we help you become a millionaire?
+
+                      Over the last 900+ Powerball draws, we have correctly predicted <b>over 450 tickets</b> with 5 of 5 correct! That’s an average of six (6) per month OR <b>1 every 2 draws</b></p>
+
+                   </textarea>
+                </div>
+                <div class="form-group mt-3">
+                  <label >Image</label>
+                  <div class="preview-image position-relative" >
+          <div class="image-wrapper">
+              <img  class="not-cover" src="assets/img/1million.jpeg" alt="not">
+          </div>
+          <div class="upload-btn">
+              <i class="bi bi-cloud-arrow-up"></i>
+          </div>
+                  </div>
+                  <p>
+                      Supported Files: .png, .jpg, .jpeg. Image will be resized into 636x358px
+                  </p>
+              </div>
+
+              <h3 class="section-area-title">Sixth Section</h3>
+                   
+              <div class="form-group">
+                     
+                <label for="">Section Description</label>
+                <textarea name="texteditor1" id="texteditor5" cols="30" rows="10" >
+                 <p>We average two (2) 4+PB $50,000 tickets <b>PER DRAW</b></p>
+
+               </textarea>
+            </div>
+            <div class="form-group mt-3">
+              <label >Image</label>
+              <div class="preview-image position-relative " >
+      <div class="image-wrapper">
+          <img  class="not-cover" src="assets/img/50,000.jpeg" alt="not">
+      </div>
+      <div class="upload-btn">
+          <i class="bi bi-cloud-arrow-up"></i>
+      </div>
+              </div>
+              <p>
+                  Supported Files: .png, .jpg, .jpeg. Image will be resized into 636x358px
+              </p>
+          </div>
+          <h3 class="section-area-title">Seventh Section</h3>
+          <div class="form-group">
+            <label for="">Section Title</label>
+            <input type="text" value="Some Lottery statistics to consider:" class="form-control" name="" id="">
+          </div>
+          <div class="mt-3 form-group">
+                     
+            <label for="">Section Description</label>
+            <textarea name="texteditor1" id="texteditor6" cols="30" rows="10" >
+           <ul>
+            <li>1 out of 4 players plays the lottery at least once per month. A further 1 out of 4 players buys 5+ or more tickets when there’s a bigger jackpot to win.</li>
+            <li>In the U.S. some player habits to consider: 10% Play Weekly, 1% Play Daily</li>
+            <li>Almost 70% of people choose completely random numbers when playing with no specific “strategy” of number choosing.</li>
+            <li>86% of people who have played the lottery have said they have won something at least once. This doesn’t mean they have won more than they have lost, but they have, at some stage, won something small or big.</li>
+            <li>In the same survey: 7 out of 10 people said they have won $99 or less. Only 0.09% of respondents said they have won over $10,000+.</li>
+            
+           </ul>
+           <p>Source: <b>https://www.searchlogistics.com/learn/statistics/lottery-statistics/</b></p>
+           </textarea>
+        </div>
+        <h3 class="section-area-title">Eighth Section</h3>
+        <div class="form-group">
+          <label for="">Section Title</label>
+          <input type="text" value="Some Power Pix statistics to consider:" class="form-control" name="" id="">
+        </div>
+        <div class="mt-3 form-group">
+                   
+          <label for="">Section Description</label>
+          <textarea name="texteditor1" id="texteditor7" cols="30" rows="10" >
+         <ul>
+          <li>We generate 3,769,920 ticket combos for each draw. If each of our members plays 5 tickets per draw, then to box all the combinations requires 753,984 players per draw.</li>
+          <li>Annually, we correctly predict about seventy-five (75), 5 of 5, $1 Million winning tickets or about 1 in10,000 could become a millionaire.</li>
+          <li>Annually, we correctly predict about 300, 4+PB, winning tickets or roughly 1 in 2,500 members could win $50,000.</li>
+          <li>Every draw we generate about 145,000 winning tickets or 22.6 Million a year or generating roughly 30 winning tickets per member annually.</li>
+    
+          
+         </ul>
+         <p>If you’re like most Americans who spend $500 a year on lotteries, would you spend $10 / draw or $1,560 / year on Powerball for these odds?<b>Disclaimer: Just remember these are averages, in a worst-case scenario you COULD go the whole year and not win a single prize.</b></p>
+         </textarea>
+      </div>
+
+
+      <h3 class="section-area-title">Ninth Section</h3>
+      <div class="form-group">
+        <label for="">Section Title</label>
+        <input type="text" value="Are you the 1% we’re looking to help?" class="form-control" name="" id="">
+      </div>
+      <div class="mt-3 form-group">
+                 
+        <label for="">Section Description</label>
+        <textarea name="texteditor1" id="texteditor8" cols="30" rows="10" >
+       <p>According to Searchlogistics, about 1% of players play daily. If 181 Million people in the U.S. play the lotteries, then there about <b>1.81 Million serious lottery players who play DAILY OR WEEKLY.</b></p>
+       <p>We don’t offer single ticket combinations.</p>
+       <p>
+        Here’s why:
+       </p>
+       <ul>
+        <li>We have ten (10) very strong prediction models.</li>
+ <li>To give you at least one (1) ticket in half of the models is a 5-pack.</li>
+ <li>To give you at least one (1) ticket in ALL the models is a 10- pack.</li>
+ <li>We feel very strongly about responsible gaming, so we limit you to 10 tickets per draw.</li>
+ <li>If you represent a group, you must register as such, and only then will we increase the number of tickets available to you per draw, to 100.</li>
+ 
+ 
+      </ul>
+      <p>If this resonates for you, please click on the link below to register and start receiving your Power Pix. Remember, you can always take a 5-pack and share it with friends or create a smaller group. If you’re not comfortable with this amount of money, please do not proceed. We thank you for giving us a chance to tell our story and hope you come back when the time is right for you</p>
+       </textarea>
+    </div>
+                        </div>
+
+                    </div>
+                    <button class="w-100 mt-5 mb-3 save-changes-btn">Save Changes</button>
+                 
+   
+           
+               
+  
+                  </div>
+                </div>
+  
+              </div>
+
+          </div>
+        </div><!-- End Left side columns -->
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script>
+    ClassicEditor
+       .create( document.querySelector( '#texteditor1' ) )
+       .catch( error => {
+           console.error( error );
+       });
+           ClassicEditor
+       .create( document.querySelector( '#texteditor2' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor3' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor4' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor5' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor6' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor7' ) )
+       .catch( error => {
+           console.error( error );
+       });
+       ClassicEditor
+       .create( document.querySelector( '#texteditor8' ) )
+       .catch( error => {
+           console.error( error );
+       });
+</script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

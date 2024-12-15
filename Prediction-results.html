@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Power Pix - Admin Panel</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.powerball.com/v01/images/1nd8xoo2/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/main-logo.png" alt="not">
+        
+      </a>
+    
+    </div><!-- End Logo -->
+
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Adnan Khan</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Adnan Khan</h6>
+              <span>CEO Of Voags</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+       
+
+
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+    
+
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Actual-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Lottery Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link " href="Prediction-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Prediction Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="content-management.html">
+          <i class="bi bi-images"></i>
+          <span>Content Management</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <section class="section dashboard">
+      <div class="row justify-content-center">
+
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+           
+<!--       
+
+            Customers Card -->
+            <div class="col-xxl-12 col-xl-12 col-12">
+
+              <div class="card ">
+
+             
+
+                <div class="card-body">
+                  <h5 class="card-title">Predictions Results</h5>
+
+
+                  <div class=" mt-5" id="drawResult">
+                    <div class="tabs-area">
+                      <button data-tab="all-results" class="all-results active">All Results</button>
+                      <button data-tab="5+pb" class="fivePB">5+PB</button>
+                      <button data-tab="5-of-5" class="fiveoffive">5 of 5</button>
+                      <button data-tab="4+pb" class="fourPB">4+PB</button>
+                    
+                      
+                     
+                    </div>
+                  
+                    <div class="row mt-5 result-tab-content" id="4+pb">
+                      <div class="col">
+                        <h2>$50,000 Prizes (4+PB) predicted since 2017
+                        </h2>
+                        <div id="filter" class=" row form-group align-items-center mb-3 mb-md-4">
+                
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="GameCode">
+                              <strong>
+                                Game Name
+                              </strong>
+                            </label>
+                            <input class="form-control form-control-lg" value="PowerBall" readonly="" id="GameCode" name="GameCode">
+                     
+                      
+                      
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="StartDate">
+                              <strong>Start Date</strong>
+                            </label>
+                            <input type="date" id="StartDate" class="form-control form-select-lg">
+                          </div>
+                          
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="EndDate">
+                              <strong>End Date</strong>
+                            </label>
+                            <input type="date" id="EndDate" class="form-control form-select-lg">
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto align-self-end">
+                            <button id="searchNumbers" class="btn btn-primary btn-lg">
+                              Search
+                            </button>
+                            <button id="clearNumbers" class="btn btn-secondary btn-lg">
+                              Clear
+                            </button>
+                          </div>
+                      
+                        </div>
+                           <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start d-flex align-items-center justify-content-end flex-md-row flex-column mb-6 mb-md-0 mt-n6 mt-md-0">
+<input type="file" class="d-none" id="csvuploadlottery" accept=".csv">
+                           <button id="lotteryresultupload" class="btn btn-secondary add-new btn-primary waves-effect waves-light" tabindex="0" aria-controls="DataTables_Table_0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddUser"><span><i class="bi bi-cloud-download me-2 ti-xs"></i><span >Upload CSV</span></span></button>
+                            </div>
+                        <div class="card mb-5 mt-4">
+                          <div class="card-body">
+                
+                            <table class="winners-table | table">
+                              <thead>
+                              <tr class="bg-red text-light">
+                                <th scope="col" class="match-col">
+                                  Draw Date
+                                </th>
+                                <th scope="col" class="text-center right-border-black">
+                             Price Amt $
+                                </th>
+                                  <th scope="col" class="text-center">
+                                   Model 1
+                                  </th>
+                                    <th scope="col" class="text-center">
+                                     Model 2
+                                    </th>
+                                    <th scope="col" class="text-center">
+                                   Model 3  
+                                    </th>
+                                    <th scope="col" class="text-center">
+                                      Model 4  
+                                       </th>
+                                       <th scope="col" class="text-center">
+                                        Model 5  
+                                         </th>
+                                         <th scope="col" class="text-center">
+                                          Model 6  
+                                           </th>
+                                           <th scope="col" class="text-center">
+                                            Model 7  
+                                             </th>
+                                             <th scope="col" class="text-center">
+                                              Model 8  
+                                               </th>
+                                               <th scope="col" class="text-center">
+                                                Model 9  
+                                                 </th>
+                                                 <th scope="col" class="text-center">
+                                                  Model 10  
+                                                   </th>
+                                         <th scope="col" class="text-center yellow left-border-black">
+                                          4+PB
+                                           </th>
+                              </tr>
+                              </thead>
+                        <tbody>
+                <tr>
+                  <td>8/28/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td class="purple">5 + PB</td>
+                <td class="purple">5 + PB</td>
+                <td>2 of 5</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>2 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                  <td class="yellow left-border-black">3</td>
+                </tr>
+                <tr>
+                  <td>8/31/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                
+                  <td class="yellow left-border-black">4</td>
+                </tr>
+                <tr>
+                  <td>9/2/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>1 + PB</td>
+                <td>0 + PB</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>2 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>2 of 5</td>
+                <td>0 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/4/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                
+                  <td class="yellow left-border-black">2</td>
+                </tr>
+                <tr>
+                  <td>9/9/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>1 of 5</td>
+                <td>1 of 5</td>
+                <td>1 of 5</td>
+                <td>2 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 of 5</td>
+                <td>0 of 5</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>2 fo 5</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/11/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>2 of 5</td>
+                <td>2 of 5</td>
+                <td>2 of 5</td>
+                <td>2 of 5</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 of 5</td>
+                <td>3 + PB</td>
+                <td>2 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/14/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="purple">5 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>1 + PB</td>
+                <td>2 of 5</td>
+                <td>2 of 5</td>
+                <td>2 of 5</td>
+                <td>1 + PB</td>
+                <td>3 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/16/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + 5</td>
+                <td>4 + 5</td>
+                <td>3 + 5</td>
+                <td>3 + PB</td>
+                <td>2 + PB</td>
+                
+                  <td class="yellow left-border-black">3</td>
+                </tr>
+                <tr>
+                  <td>9/18/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>3 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + 5</td>
+                <td>4 + 5</td>
+                <td class="light-green">5 of 5</td>
+                <td>2 of 5</td>
+                <td>0 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/21/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>2 of 5</td>
+                <td>3 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>1 + PB</td>
+                
+                  <td class="yellow left-border-black">2</td>
+                </tr>
+                <tr>
+                  <td>9/25/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>0 + PB</td>
+                <td>1 + PB</td>
+                <td>1 of 5</td>
+                <td>1 of 5</td>
+                <td>1 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td class="light-green">5 of 5</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/28/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>1 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>1 of 5</td>
+                <td>2 of 5</td>
+                <td>3 + PB</td>
+                
+                  <td class="yellow left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>10/2/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>1 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>1 of 5</td>
+                <td>2 of 5</td>
+                
+                  <td class="yellow left-border-black">4</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+                  <td><strong>58</strong></td>
+                </tr>
+                
+                
+                        </tbody>
+                            </table>
+                          
+                          </div>
+                
+                        </div>
+                
+                      </div>
+                    </div>
+                    <div class="row mt-5 result-tab-content" id="5+pb">
+                      <div class="col">
+                        <h2>Powerball Jackpots (5+PB) predicted since 2017
+                        </h2>
+                        <div id="filter" class=" row form-group align-items-center mb-3 mb-md-4">
+                
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="GameCode">
+                              <strong>
+                                Game Name
+                              </strong>
+                            </label>
+                            <input class="form-control form-control-lg" value="PowerBall" readonly="" id="GameCode" name="GameCode">
+                     
+                      
+                      
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="StartDate">
+                              <strong>Start Date</strong>
+                            </label>
+                            <input type="date" id="StartDate" class="form-control form-select-lg">
+                          </div>
+                          
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="EndDate">
+                              <strong>End Date</strong>
+                            </label>
+                            <input type="date" id="EndDate" class="form-control form-select-lg">
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto align-self-end">
+                            <button id="searchNumbers" class="btn btn-primary btn-lg">
+                              Search
+                            </button>
+                            <button id="clearNumbers" class="btn btn-secondary btn-lg">
+                              Clear
+                            </button>
+                          </div>
+                      
+                        </div>
+                        <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start d-flex align-items-center justify-content-end flex-md-row flex-column mb-6 mb-md-0 mt-n6 mt-md-0">
+                          <input type="file" class="d-none" id="csvuploadlottery" accept=".csv">
+                                                     <button id="lotteryresultupload" class="btn btn-secondary add-new btn-primary waves-effect waves-light" tabindex="0" aria-controls="DataTables_Table_0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddUser"><span><i class="bi bi-cloud-download me-2 ti-xs"></i><span >Upload CSV</span></span></button>
+                                                      </div>
+                        <div class="card mb-5 mt-4">
+                          <div class="card-body">
+                
+                            <table class="winners-table | table">
+                              <thead>
+                              <tr class="bg-red text-light">
+                                <th scope="col" class="match-col">
+                                  Draw Date
+                                </th>
+                                <th scope="col" class="text-center">
+                             Jackpot Amt $
+                                </th>
+                                  <th scope="col" class="text-center left-border-black">
+                                   Model 1
+                                  </th>
+                                    <th scope="col" class="text-center">
+                                     Model 2
+                                    </th>
+                                    <th scope="col" class="text-center">
+                                   Model 3  
+                                    </th>
+                                    <th scope="col" class="text-center">
+                                      Model 4  
+                                       </th>
+                                       <th scope="col" class="text-center">
+                                        Model 5  
+                                         </th>
+                                         <th scope="col" class="text-center">
+                                          Model 6  
+                                           </th>
+                                           <th scope="col" class="text-center">
+                                            Model 7  
+                                             </th>
+                                             <th scope="col" class="text-center">
+                                              Model 8  
+                                               </th>
+                                               <th scope="col" class="text-center">
+                                                Model 9  
+                                                 </th>
+                                                 <th scope="col" class="text-center ">
+                                                  Model 10  
+                                                   </th>
+                                         <th scope="col" class="text-center purple left-border-black">
+                                          5+PB
+                                           </th>
+                              </tr>
+                              </thead>
+                        <tbody>
+                <tr>
+                  <td>4/14/2018</td>
+                  <td>$107.8 Million</td>
+                <td class="light-green left-border-black">5 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td class="purple">5 + PB</td>
+                <td class="light-green">5 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td class="light-green">5 of 5</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>8/31/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="yellow left-border-black">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td>3 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                
+                  <td class="purple left-border-black">4</td>
+                </tr>
+                <tr>
+                  <td>9/2/2024</td>
+                  <td class="right-border-black">$50,000</td>
+                <td class="left-border-black">1 + PB</td>
+                <td>0 + PB</td>
+                <td>2 + PB</td>
+                <td>2 + PB</td>
+                <td>2 of 5</td>
+                <td class="yellow">4 + PB</td>
+                <td>2 + PB</td>
+                <td>3 + PB</td>
+                <td>2 of 5</td>
+                <td>0 + PB</td>
+                
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>4/13/2019</td>
+                  <td>$103.5 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>1 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>1 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>6/22/2019</td>
+                  <td>$108.7 Million</td>
+                  <td class="light-green left-border-black">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>11/23/2019</td>
+                  <td>$90 Million</td>
+                  <td class="light-green left-border-black">5 of 5</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td>3 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>12/7/2019</td>
+                  <td>$130 Million</td>
+                  <td class="light-green left-border-black">5 of 5</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>3/4/2020</td>
+                  <td>$90 Million</td>
+                  <td class="left-border-black">2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td>2 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>9/12/2020</td>
+                  <td>$85.2 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>2 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>2 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td>3 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>5/8/2021</td>
+                  <td>$155.9 Million</td>
+                  <td class="yellow left-border-black">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>11/8/2021</td>
+                  <td>$150.7 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td class="yellow ">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>10/3/2022</td>
+                  <td>$338.2 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td>3 + PB</td>
+                  <td class="light-green ">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="light-green">5 of 5</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>10/22/2022</td>
+                  <td>$591.3 Million</td>
+                  <td class="purple left-border-black">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>$124.3 Million</td>
+                  <td class="yellow left-border-black">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>2/6/2023</td>
+                  <td>$754.6 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td>3 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td>5/27/2023</td>
+                  <td>$214.5 Million</td>
+                  <td class="left-border-black">3 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="yellow">4 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple">5 + PB</td>
+                  <td class="purple left-border-black">1</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><strong>19</strong></td>
+                </tr>
+                
+                        </tbody>
+                            </table>
+                         
+                          </div>
+                
+                        </div>
+                
+                      </div>
+                    </div>
+                    <div class="row mt-5 result-tab-content" id="5-of-5">
+                      <div class="col">
+                        <h2>$1 Million Prizes (5 of 5) predicted since 2017
+                        </h2>
+                        <div id="filter" class=" row form-group align-items-center mb-3 mb-md-4">
+                
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="GameCode">
+                              <strong>
+                                Game Name
+                              </strong>
+                            </label>
+                            <input class="form-control form-control-lg" value="PowerBall" readonly="" id="GameCode" name="GameCode">
+                     
+                      
+                      
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="StartDate">
+                              <strong>Start Date</strong>
+                            </label>
+                            <input type="date" id="StartDate" class="form-control form-select-lg">
+                          </div>
+                          
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="EndDate">
+                              <strong>End Date</strong>
+                            </label>
+                            <input type="date" id="EndDate" class="form-control form-select-lg">
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto align-self-end">
+                            <button id="searchNumbers" class="btn btn-primary btn-lg">
+                              Search
+                            </button>
+                            <button id="clearNumbers" class="btn btn-secondary btn-lg">
+                              Clear
+                            </button>
+                          </div>
+                      
+                        </div>
+                        <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start d-flex align-items-center justify-content-end flex-md-row flex-column mb-6 mb-md-0 mt-n6 mt-md-0">
+                          <input type="file" class="d-none" id="csvuploadlottery" accept=".csv">
+                                                     <button id="lotteryresultupload" class="btn btn-secondary add-new btn-primary waves-effect waves-light" tabindex="0" aria-controls="DataTables_Table_0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddUser"><span><i class="bi bi-cloud-download me-2 ti-xs"></i><span >Upload CSV</span></span></button>
+                                                      </div>
+                        <div class="card mb-5 mt-4">
+                          <div class="card-body">
+                
+                            <table class="winners-table | table">
+                              <tbody><tr>
+                                <th class="text-center">Draw Date</th>
+                                <th class="text-center right-border-black">5 of 5 Prize</th>
+                                <th class="text-center">Model 1</th>
+                                <th class="text-center">Model 2</th>
+                                <th class="text-center">Model 3</th>
+                                <th class="text-center">Model 4</th>
+                                <th class="text-center">Model 5</th>
+                                <th class="text-center">Model 6</th>
+                                <th class="text-center">Model 7</th>
+                                <th class="text-center">Model 8</th>
+                                <th class="text-center">Model 9</th>
+                                <th class="text-center">Model 10</th>
+                                <th class="text-center green left-border-black">5 of 5</th>
+                              </tr>
+                              <tr>
+                                <td>4/29/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td>1 of 5</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td>2 of 5</td>
+                                <td class="left-border-black light-green">4</td>
+                              </tr>
+                              <tr>
+                                <td>5/1/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>2 of 5</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="left-border-black light-green">1</td>
+                              </tr>
+                              <tr>
+                                <td>5/13/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td>2 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>2 + PB</td>
+                                <td class="left-border-black light-green">2</td>
+                              </tr>
+                              <tr>
+                                <td>6/1/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>3 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="left-border-black light-green">1</td>
+                              </tr>
+                              <tr>
+                                <td>6/3/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>4 of 5</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="left-border-black light-green">4</td>
+                              </tr>
+                              <tr>
+                                <td>6/10/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 of 5</td>
+                                <td>2 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="left-border-black light-green">2</td>
+                              </tr>
+                              <tr>
+                                <td>6/19/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="left-border-black light-green">1</td>
+                              </tr>
+                              <tr>
+                                <td>6/22/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td>1 + PB</td>
+                                <td>2 + PB</td>
+                                <td>2 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>2 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>2 + PB</td>
+                                <td class="left-border-black light-green">1</td>
+                              </tr>
+                              <tr>
+                                <td>6/29/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>2 of 5</td>
+                                <td>3 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="left-border-black light-green">4</td>
+                              </tr>
+                              <tr>
+                                <td>7/3/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td>2 of 5</td>
+                                <td>1 of 5</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="left-border-black light-green">3</td>
+                              </tr>
+                              <tr>
+                                <td>7/13/2024</td>
+                                <td class="right-border-black">$1 Million</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="light-green">5 of 5</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td>3 + PB</td>
+                                <td class="yellow">4 + PB</td>
+                                <td>2 of 5</td>
+                                <td>3 of 5</td>
+                                <td class="left-border-black light-green ">4</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><strong>20</strong></td>
+                              </tr>
+                            </tbody></table>
+                         
+                          </div>
+                
+                        </div>
+                
+                      </div>
+                    </div>
+                    <div class="row mt-5 result-tab-content active" id="all-results">
+                      <div class="col">
+                        <h2>All Results By Model predicted since 2017
+                
+                        </h2>
+                        <div id="filter" class=" row form-group align-items-center mb-3 mb-md-4">
+                
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="GameCode">
+                              <strong>
+                                Game Name
+                              </strong>
+                            </label>
+                            <input class="form-control form-control-lg" value="PowerBall" readonly="" id="GameCode" name="GameCode">
+                     
+                      
+                      
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="StartDate">
+                              <strong>Start Date</strong>
+                            </label>
+                            <input type="date" id="StartDate" class="form-control form-select-lg">
+                          </div>
+                          
+                          <div class="col-sm-12 col-md-auto">
+                            <label class="mb-2" for="EndDate">
+                              <strong>End Date</strong>
+                            </label>
+                            <input type="date" id="EndDate" class="form-control form-select-lg">
+                          </div>
+                      
+                          <div class="col-sm-12 col-md-auto align-self-end">
+                            <button id="searchNumbers" class="btn btn-primary btn-lg">
+                              Search
+                            </button>
+                            <button id="clearNumbers" class="btn btn-secondary btn-lg">
+                              Clear
+                            </button>
+                          </div>
+                      
+                        </div>
+                        <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start d-flex align-items-center justify-content-end flex-md-row flex-column mb-6 mb-md-0 mt-n6 mt-md-0">
+                          <input type="file" class="d-none" id="csvuploadlottery" accept=".csv">
+                                                     <button id="lotteryresultupload" class="btn btn-secondary add-new btn-primary waves-effect waves-light" tabindex="0" aria-controls="DataTables_Table_0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddUser"><span><i class="bi bi-cloud-download me-2 ti-xs"></i><span >Upload CSV</span></span></button>
+                                                      </div>
+                        <div class="card mb-5 mt-4">
+                          <div class="card-body">
+                <div class="responsive-table-large">
+                  <table id="allResultsTable" class="winners-table | table">
+                    <tbody><tr>
+                      <th class="text-center">Draw Date</th>
+             
+                      <th class="text-center left-border-black">Model 1</th>
+                      <th class="text-center">Model 2</th>
+                      <th class="text-center">Model 3</th>
+                      <th class="text-center">Model 4</th>
+                      <th class="text-center">Model 5</th>
+                      <th class="text-center">Model 6</th>
+                      <th class="text-center">Model 7</th>
+                      <th class="text-center">Model 8</th>
+                      <th class="text-center">Model 9</th>
+                      <th class="text-center right-border-black">Model 10</th>
+                      <th class="text-center purple">5 + PB</th>
+                      <th class="text-center green">5 of 5</th>
+                      <th class="text-center yellow">4 + PB</th>
+      
+      
+                    </tr>
+                    <tr>
+                      <td>4/11/2024</td>
+                   
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/14/2024</td>
+                   
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/16/2024</td>
+                   
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td class="purple">1</td>
+                      <td></td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td>4/18/2024</td>
+                   
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td class="light-green">1</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/22/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/24/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td>4/26/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td class="light-green">1</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/28/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td>4/30/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td class="light-green">1</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>5/2/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>5/4/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>5/6/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>5/8/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr>
+                      <td>4/22/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green ">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>4/24/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>4/26/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>4/28/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>4/30/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>5/2/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>5/4/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td>5/6/2024</td>
+                      <td class="light-green left-border-black">5 of 5</td>
+                      <td class="light-green">5 of 5</td>
+                      <td class="yellow">4 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td>1 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="light-green">5 of 5</td>
+                      <td>3 + PB</td>
+                      <td class="right-border-black">2 of 5</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td class="yellow">1</td>
+                    </tr>
+                    <tr style="">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><strong>1</strong></td>
+                      <td><strong>11</strong></td>
+                      <td><strong>47</strong></td>
+                    </tr>
+                  </tbody></table>
+                </div>
+                          
+                       
+                          </div>
+                
+                        </div>
+                
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+        </div><!-- End Left side columns -->
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll('.tabs-area button');
+    const tabContents = document.querySelectorAll('.result-tab-content');
+
+    function switchTab(targetTab) {
+        buttons.forEach(button => button.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+
+        targetTab.classList.add('active');
+
+        const targetId = targetTab.getAttribute('data-tab');
+        const targetTabContent = document.getElementById(targetId);
+        if (targetTabContent) {
+            targetTabContent.classList.add('active');
+        }
+
+        
+    }
+
+   
+    const storedTabId = localStorage.getItem('activeTabId');
+    if (storedTabId) {
+        const storedTab = document.querySelector(`.tabs-area button[data-tab="${storedTabId}"]`);
+        if (storedTab) {
+            switchTab(storedTab);
+        }
+    } else {
+       
+        const defaultTab = document.querySelector('.tabs-area button.all-results');
+        if (defaultTab) {
+            switchTab(defaultTab);
+        }
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            switchTab(button);
+        });
+    });
+});
+  document.getElementById("lotteryresultupload").addEventListener("click", function () {
+    document.getElementById('csvuploadlottery').click(); 
+  });
+
+
+  document.getElementById("csvuploadlottery").addEventListener("change", function () {
+    const file = this.files[0]; 
+    if (file) {
+      const fileType = file.type;
+      if (fileType !== "text/csv") {
+        alert("Only CSV files are allowed!");
+        this.value = ""; 
+      } else {
+        alert("File accepted: " + file.name); 
+      }
+    }
+  });
+  
+
+
+
+</script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

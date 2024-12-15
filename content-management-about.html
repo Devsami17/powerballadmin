@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Power Pix - Admin Panel</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.powerball.com/v01/images/1nd8xoo2/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/main-logo.png" alt="not">
+        
+      </a>
+    
+    </div><!-- End Logo -->
+
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Adnan Khan</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Adnan Khan</h6>
+              <span>CEO Of Voags</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+       
+
+
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+    
+
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Actual-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Lottery Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Prediction-results.html">
+          <i class="bi bi-trophy"></i>
+          <span>Prediction Results</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="content-management.html">
+          <i class="bi bi-images"></i>
+          <span>Content Management</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <section class="section Content-management">
+      <div class="row justify-content-center">
+
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-12">
+
+                <div class="card ">
+  
+               
+  
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="card-title-two">About Us</h5>
+                        <button class="back-btn" onclick="window.location='content-management.html'"><i class="bi bi-caret-left"></i>&nbsp;Back</button>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between">
+<div class="col-lg-4 col-xxl-3 col-12">
+    <div class="form-group">
+        <label >Image</label>
+        <div class="preview-image preview-image-half position-relative">
+<div class="image-wrapper">
+    <img src="assets/img/about-bg-illus.png" alt="not">
+</div>
+<div class="upload-btn">
+    <i class="bi bi-cloud-arrow-up"></i>
+</div>
+        </div>
+        <p>
+            Supported Files: .png, .jpg, .jpeg. Image will be resized into 636x358px
+        </p>
+    </div>
+</div>
+                        <div class="col-lg-7 col-12 col-xxl-8">
+
+                            <div class="form-group">
+                                <label for="">Heading</label>
+                                <input type="text" class="form-control" value="About Us">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="">Description</label>
+                               <textarea name="" id="" cols="30" rows="10" class="form-control">Let me introduce myself. My name is Bill. I love math and I enjoy analyzing lotteries. Math has been near and dear to my heart since the day my kindergarten teacher gave me a GOLD STAR for being able to write out every number from 1 to 100. Lottery Jackpots, and chasing them, have been of a particular interest and source of fun for me. Please let me share my lottery journey with you
+
+November 1979 was when the Jackpot chase began. I was in my third year of college at the University of Western Ontario, in London, Ontario Canada and had been studying statistics and programming for 2 years. When I first heard about the Super Lottario, one the first online lotteries in Canada, I was intrigued. How hard could it be to predict a Jackpot? How little I knew then – lol. I remember doing a hand calculation on the top numbers for the latest handful of draws and was sure I was onto something. My best friend, Bob “Hirsty” Hirst and I marched off to the local convenience store to buy a handful of tickets. I don’t recall how many we purchased, remember we were students at the time, but we had high expectations. To say the least we didn’t win the Jackpot, but the passion was ignited.
+                                
+Fast forward to 2003: : I had been toying with theories and models for Lotto 649 for over 20 years, this time, using spreadsheets. I had taken an exit package from my employer at the end of 2002 and had some time to decompress and plan my next career move. What a perfect time to buy a bunch of PCs and get to work on cracking the code of Lotto 649! In early spring of 2003, using various mathematical theories from my college days and my newly acquired computing power, I had crunched the numbers with some very positive results. I shared these results with my future business partner Peter Rose over lunch. That lunch was memorable to say the least. So much so, we decided to start a company to market these “enhanced” predictions to the general public.
+                                
+From 2003 to 2012: Winners Edge Information Services (WEIS) tracked 257 lotteries daily across the U.S. and Canada, providing our members with some great picks. We correctly “predicted” over 550 jackpots, including some for Powerball and Mega Millions, but we never had enough members to box all the combinations in order to produce an actual Jackpot winner. Luckily, I had a day job.
+                                
+We even had a notary audit out predictions to prove we were for real. I still have the documentation today of a Powerball Jackpot we predicted in 2005, within five (5) draws of getting our “Jackpot Alert” signals from our model.
+                                
+ In 2015: Powerball changed the format of their lottery, increasing the number of main draw balls to 69. More importantly, they greatly improved their second and third level prizes to $1 Million and $50,000 respectively. To this day, Powerball is my favorite lottery, and the only one that I follow closely.
+ 
+ 2024: As it was then, it is today. To have the best chance for someone to win a Jackpot, you require enough members to box all the combinations. Of course, you can win a jackpot with a single ticket, but we’re talking about increasing your odds. In early 2024, DraftKings completed a purchased of an online lottery service call Jackpockets.com. When I read about this, I thought this was the match made in heaven, I had been looking for to finally have someone win a jackpot.
+ 
+ DraftKings reported that they had over 3.1 million MUPs (Monthly Unique Players) in Q2 of 2024. To box every combination of our top ten (10) models, we need to box 3,769,920 combinations. I reached out to DraftKings with a proposal for them to offer our predictions to their top players as a benefit/reward of membership. It’s not a requirement, but it’s a lock when you know every combination had been played. If each player plays 5 tickets, this comes out to roughly 750,000 players which is a fraction of their 3.1 Million MUPs
+ 
+ I’m still pursuing DraftKings and other betting platforms to see if they would like to offer our picks to their members, but in the meantime,we’ve decided to offer them to the public FOR FREE!
+ 
+ Some facts to consider:
+ 
+ Powerball Jackpot odds are 1 in 292 Million: In 2024, Powerball has had eight (8) Jackpot winners to date.
+ Power Pix odds are 1 in 3.7 Million: In 2024, Power Pix has correctly predicted three (3) Jackpot winners using 288 Million fewer combinations!
+ $1 Million tickets: More importantly, since 2018 we have correctly predicted over 450, 5 of 5 winning tickets. This a period of just over 900 draws. Our average for predicting a $1 Million, 5 of 5 ticket, is every two (2) draws, six (6) a month, or about 75 per year.
+ 1 in 10,000: If you look at our track record on an annual basis, if we had, and that’s a BIG IF we had, 750,000 members/groups playing in all 156 draws in a given year, then 1 in 10,000 would have won $1 Million each! Simple math.
+ The odds of hitting a 5 of 5 ticket on your own playing Powerball is just under 1 in 12 million
+ Which odds would you rather have 1 in 10,000 or 1 in 12 million?
+ 
+ How can we afford to offer this service at no cost? I’m comfortable, but I’m not independently wealthy. U.S. players can purchase their tickets in person or online. We definitely recommend using this approach. For our international players, we are affiliated with an online service, that pays us a referral commission on ticket purchases which they make on behalf of their members.
+ 
+ I hope this has given you an insight into my history and the reason for creating this site. Please play responsibly
+ 
+ DON’T PLAY POWERBALL, using our recommendations if:
+ 
+ If $10 per draw is a financial hardship for you, don’t do it.
+ If playing every draw is too much for you, don’t do it Lotteries are not something to count on when it comes to paying your monthly bills. The odds are against you.
+ Playing lotteries is supposed to be fun and give you a chance to dream.
+ 
+ If playing regularly is affordable, that’s great. Additionally, you can share our combos with other individual players, join a group or create a group of players to make this an affordable and fun experience. If that works for you then consider trying our recommendations. We look forward to seeing you on our site.
+ 
+ Sincerely,</textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="w-100 mt-5 mb-3 save-changes-btn">Save Changes</button>
+                 
+   
+           
+               
+  
+                  </div>
+                </div>
+  
+              </div>
+
+          </div>
+        </div><!-- End Left side columns -->
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
